@@ -1,0 +1,134 @@
+-- 9191_s158227.ipynb
+feature_fraction = 0.25
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 128
+num_iterations = 121
+num_leaves = 256
+-- 9191_s423541.ipynb
+feature_fraction = 0.25
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 512
+num_iterations = 94
+num_leaves = 2048
+-- 9191_s668141.ipynb
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 2048
+num_iterations = 151
+num_leaves = 512
+-- 9191_s732271.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 98
+num_leaves = 512
+-- 9191_s846061.ipynb
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 105
+num_leaves = 512
+-- 9192_s158227.ipynb
+feature_fraction = 0.25
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 126
+num_leaves = 512
+-- 9192_s423541.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 74
+num_leaves = 1024
+-- 9192_s668141.ipynb
+feature_fraction = 0.5
+feature_fraction = 0.75
+feature_fraction = 1.0
+min_data_in_leaf = 2048
+num_iterations = 132
+num_leaves = 512
+-- 9192_s732271.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 102
+num_leaves = 512
+-- 9192_s846061.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 96
+num_leaves = 256
+-- 9193_s158227.ipynb
+feature_fraction = 0.25
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 130
+num_leaves = 256
+-- 9193_s423541.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 2048
+num_iterations = 136
+num_leaves = 512
+-- 9193_s668141.ipynb
+feature_fraction = 0.5
+feature_fraction = 0.75
+feature_fraction = 1.0
+min_data_in_leaf = 2048
+num_iterations = 103
+num_leaves = 512
+-- 9193_s732271.ipynb
+feature_fraction = 0.5
+feature_fraction = 0.75
+feature_fraction = 1.0
+min_data_in_leaf = 2048
+num_iterations = 116
+num_leaves = 256
+-- 9193_s846061.ipynb
+feature_fraction = 0.25
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 512
+num_iterations = 111
+num_leaves = 1024
+-- 9194_s158227.ipynb
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 114
+num_leaves = 512
+-- 9194_s423541.ipynb
+feature_fraction = 0.5
+feature_fraction = 0.75
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 135
+num_leaves = 256
+-- 9194_s668141.ipynb
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 512
+num_iterations = 120
+num_leaves = 512
+-- 9194_s732271.ipynb
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 114
+num_leaves = 512
+-- 9194_s846061.ipynb
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 2048
+num_iterations = 92
+num_leaves = 512
