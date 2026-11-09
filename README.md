@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/34558592/README.md)
+
 # Operación Campo Clave · Problema #16 · Grupo A
 
 **Laboratorio de Implementación I** · Maestría en Ciencia de Datos con IA · Universidad Austral · 2026
