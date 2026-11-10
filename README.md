@@ -52,16 +52,18 @@ Con corrección de Holm, todos p = 1. La tanda anterior (919x) dio lo mismo (p e
 - Diagnóstico con 32 y 64 hojas (Base y Sin ID, 3 semillas): 32 hojas nunca dio la mejor AUC y en 5 de 6 casos la mejor siguió en 128–256 hojas → el óptimo está **dentro** de la grilla.
 
 ### Importancia de variables
-| Variable (920x, 5 semillas) | Puesto en Base | Gain en Base | Gain en Sin ID |
+| Variable (920x, 10 semillas) | Puesto en Base | Gain en Base | Gain en Sin ID |
 |---|---|---|---|
-| foto_mes | 6–8 | 2,6 % | 2,4 % |
-| numero_de_cliente | 49–55 | 0,33 % | — (excluida) |
-| cliente_antiguedad | 58–77 | 0,28 % | 0,23 % |
+| foto_mes | 6–8 | 2,4 % | 2,4 % |
+| numero_de_cliente | 26–77 (prom. ~51) | 0,36 % | — (excluida) |
+| cliente_antiguedad | 42–91 (prom. ~63) | 0,31 % | 0,24 % |
+
+Sin el ID, el gain de `cliente_antiguedad` sube solo en 2 de las 10 semillas.
 
 ## Conclusiones
 
 - Con este modelo y 10 semillas **no hay evidencia** de que quitar `numero_de_cliente`, `foto_mes` o ambos cambie la ganancia en 202109.
-- **El ID no es "la llave secreta":** aporta el 0,33 % del gain. Y no se confirmó nuestra hipótesis de que `cliente_antiguedad` ocuparía su lugar.
+- **El ID no es "la llave secreta":** aporta el 0,36 % del gain. Y no se confirmó nuestra hipótesis de que `cliente_antiguedad` ocuparía su lugar.
 - **foto_mes engaña:** el modelo lo usa mucho (top 10), pero no ayuda a predecir un mes futuro, porque los árboles no extrapolan.
 
 ## Limitaciones
@@ -88,7 +90,9 @@ corridas/
   NNNV_sSEMILLA.ipynb              notebook ejecutado de cada corrida
                                    NNN = tanda (917–922), V = variante (1 Base, 2 Sin ID, 3 Sin Mes, 4 Sin Ambos)
 resultados/
-  impo_P16.txt                     importancia de variables (gain) por variante y semilla
+  scores_919x.csv, scores_920x.csv Public por corte, máximo e hiperparámetros de las 40 corridas de cada tanda
+  impo_P16.txt                     resumen de importancia (foto_mes, numero_de_cliente, cliente_antiguedad), 920x Base y Sin ID
+  importancia/                     archivos impo.txt completos de cada corrida
   mejores_hp_P16.txt               hiperparámetros elegidos en cada corrida
 logs/
   loop_P16_*.log                   logs de ejecución de las tandas

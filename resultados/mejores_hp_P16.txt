@@ -132,3 +132,239 @@ feature_fraction = 1.0
 min_data_in_leaf = 2048
 num_iterations = 92
 num_leaves = 512
+-- 9191_s172447.ipynb
+feature_fraction = 0.25
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 140
+num_leaves = 1024
+-- 9191_s328577.ipynb
+feature_fraction = 0.5
+feature_fraction = 0.75
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 87
+num_leaves = 256
+-- 9191_s397447.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 109
+num_leaves = 1024
+-- 9191_s644839.ipynb
+feature_fraction = 0.5
+feature_fraction = 0.75
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 120
+num_leaves = 512
+-- 9191_s845453.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 110
+num_leaves = 256
+-- 9192_s172447.ipynb
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 103
+num_leaves = 256
+-- 9192_s328577.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 97
+num_leaves = 512
+-- 9192_s397447.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 101
+num_leaves = 1024
+-- 9192_s644839.ipynb
+feature_fraction = 0.5
+feature_fraction = 0.75
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 98
+num_leaves = 512
+-- 9192_s845453.ipynb
+feature_fraction = 0.5
+feature_fraction = 0.75
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 99
+num_leaves = 512
+-- 9193_s172447.ipynb
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 116
+num_leaves = 256
+-- 9193_s328577.ipynb
+feature_fraction = 0.5
+feature_fraction = 0.75
+feature_fraction = 1.0
+min_data_in_leaf = 2048
+num_iterations = 141
+num_leaves = 256
+-- 9193_s397447.ipynb
+feature_fraction = 0.25
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 512
+num_iterations = 133
+num_leaves = 1024
+-- 9193_s644839.ipynb
+feature_fraction = 0.5
+feature_fraction = 0.75
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 84
+num_leaves = 1024
+-- 9193_s845453.ipynb
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 2048
+num_iterations = 184
+num_leaves = 256
+-- 9194_s172447.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 4096
+num_iterations = 182
+num_leaves = 256
+-- 9194_s328577.ipynb
+feature_fraction = 0.25
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 2048
+num_iterations = 168
+num_leaves = 512
+-- 9194_s397447.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 130
+num_leaves = 256
+-- 9194_s644839.ipynb
+feature_fraction = 0.5
+feature_fraction = 1.0
+min_data_in_leaf = 1024
+num_iterations = 136
+num_leaves = 256
+-- 9194_s845453.ipynb
+feature_fraction = 0.5
+feature_fraction = 1
+feature_fraction = 1.0
+min_data_in_leaf = 4096
+num_iterations = 192
+num_leaves = 256
+-- 9201_s172447.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 2048
+num_iterations = 111
+num_leaves = 512
+-- 9201_s328577.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 2048
+num_iterations = 197
+num_leaves = 128
+-- 9201_s397447.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 256
+num_iterations = 88
+num_leaves = 1024
+-- 9201_s644839.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 512
+num_iterations = 83
+num_leaves = 512
+-- 9201_s845453.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 1024
+num_iterations = 118
+num_leaves = 512
+-- 9202_s172447.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 1024
+num_iterations = 121
+num_leaves = 128
+-- 9202_s328577.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 4096
+num_iterations = 216
+num_leaves = 256
+-- 9202_s397447.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 1024
+num_iterations = 82
+num_leaves = 512
+-- 9202_s644839.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 1024
+num_iterations = 103
+num_leaves = 256
+-- 9202_s845453.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 512
+num_iterations = 80
+num_leaves = 256
+-- 9203_s172447.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 1024
+num_iterations = 116
+num_leaves = 256
+-- 9203_s328577.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 2048
+num_iterations = 151
+num_leaves = 256
+-- 9203_s397447.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 4096
+num_iterations = 228
+num_leaves = 256
+-- 9203_s644839.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 2048
+num_iterations = 193
+num_leaves = 256
+-- 9203_s845453.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 2048
+num_iterations = 184
+num_leaves = 256
+-- 9204_s172447.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 1024
+num_iterations = 115
+num_leaves = 256
+-- 9204_s328577.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 2048
+num_iterations = 153
+num_leaves = 256
+-- 9204_s397447.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 8192
+num_iterations = 208
+num_leaves = 128
+-- 9204_s644839.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 1024
+num_iterations = 137
+num_leaves = 128
+-- 9204_s845453.ipynb
+feature_fraction = 0.5
+min_data_in_leaf = 4096
+num_iterations = 166
+num_leaves = 256
